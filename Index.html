@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-escale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos.css"> 
+    <title>Esp Masaje Relax-inicio</title>
+    <link rel="shortcut icon" href="images/favicon.jpg">
+</head>
+
+<body onload="ocultar()">
+    <head>
+        <h1>ESP Masaje Relax 
+            <button class="botonHistoria" id="botonHistoria" onclick="Historia()">¿Quiénes somos?</button>
+            <button class="botonInicio" id="botonInicio" onclick="Inicio()">Inicio</button>
+        </h1>
+    </head>
+
+    <div class="container">
+        <div class="img-container" id="image-container">
+            <img src="images/img_1.jpg" class="imagen-1">
+            <img src="images/img_2.jpg" class="imagen-2">
+            <img src="Images/img_3.jpg" class="imagen-3">
+
+            <div class="caja-texto1">
+            </div>
+        </div>
+    </div>
+    <div class="caja-texto2" >
+        <p id="parrafo1">
+           Regálate un momento de paz y belleza en nuestro spa, 
+           donde podrás disfrutar de nuestros masajes faciales 
+           para rejuvenecer tu piel, masajes reductores para moldear 
+           tu cuerpo y masajes relajantes para liberar el estrés.
+           Descubre una experiencia única de bienestar y renueva tu 
+           cuerpo y mente en este lugar lleno de tranquilidad.
+        </p>
+    </div>
+    <h2 class="SeccionMasaje" id="modReductores"  onclick="mostrar1()"><img src="images/trebol.png" class="Trebol">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10597;&nbsp;&nbsp;&nbsp;&nbsp;Masajes Reductores&nbsp;&nbsp;&nbsp;&nbsp;&#10597;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/trebol.png" class="Trebol"></h2>
+    <h2 class="SeccionMasaje" id="modReductores1" onclick="ocultar1()"><img src="images/trebol.png" class="Trebol">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10595;&nbsp;&nbsp;&nbsp;&nbsp;Masajes Reductores&nbsp;&nbsp;&nbsp;&nbsp;&#10595;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/trebol.png" class="Trebol"></h2>
+        <section class="seccion" id="masajes-reductores">
+         <div class="container">
+            <div class="img-container">
+                <img src="images/Img_7_Reductor.jpg" class="imagen">
+            </div>
+            <div class="caja-texto">
+                <p class="parrafo" id="parrafoReductor"> Tenemos para ti masajes reductores con estas técnicas
+                    <ul class="lista1">
+                        <li class="li">Yesoterapia</li>
+                        <li class="li">Termo-lipo reductor</li>
+                        <li class="li">Masoterapia</li>
+                        <li class="li">Maderoterapia</li>
+                        <li class="li">Mesoterapia</li>
+                        <li class="li">Vendas frías</li>
+                        <li class="li">Vancunterapia</li>
+                        <li class="li">Shou Noren</li>
+                        <li class="li">SLLM MUD</li>
+                        <li class="li">Preparación de novias</li>
+                        <li class="li">Baño de luna</li>
+                        <li class="li">Chocolaterapia</li>
+                        <li class="li">Baño de sol</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </section>
+    <h2 class="SeccionMasaje" id="modRelajantes"  onclick="mostrar2()"><img src="images/trebol.png" class="Trebol">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10597;&nbsp;&nbsp;&nbsp;&nbsp;Masajes Relajantes&nbsp;&nbsp;&nbsp;&nbsp;&#10597;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/trebol.png" class="Trebol"></h2>
+    <h2 class="SeccionMasaje" id="modRelajantes1" onclick="ocultar2()"><img src="images/trebol.png" class="Trebol">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10595;&nbsp;&nbsp;&nbsp;&nbsp;Masajes Relajantes&nbsp;&nbsp;&nbsp;&nbsp;&#10595;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/trebol.png" class="Trebol"></h2>
+    <section class="seccion" id="masajes-relajantes">
+        <div class="container">
+            <div class="img-container">
+                <img src="images/Img_8_Relajante.jpg" class="imagen" id="imagen2">
+            </div>
+            <div class="caja-texto">
+                <p class="parrafo"> Técnicas variadas en masajes: 
+                    <ul class="lista2">
+                        <li class="li"> Descontracturantes </li>
+                        <li class="li"> Terapéuticos </li>
+                        <li class="li"> Sanadores </li>
+                    </ul>
+                </p> 
+                <img src="images/piedras.jpg" class="piedras">
+            </div>
+        </div>
+    </section>
+    <h2 class="SeccionMasaje" id="modFaciales"  onclick="mostrar3()"><img src="images/trebol.png" class="Trebol">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10597;&nbsp;&nbsp;&nbsp;&nbsp;Terapias Faciales&nbsp;&nbsp;&nbsp;&nbsp;&#10597;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/trebol.png" class="Trebol"></h2>
+    <h2 class="SeccionMasaje" id="modFaciales1" onclick="ocultar3()"><img src="images/trebol.png" class="Trebol">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10595;&nbsp;&nbsp;&nbsp;&nbsp;Terapias Faciales&nbsp;&nbsp;&nbsp;&nbsp;&#10595;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/trebol.png" class="Trebol"></h2>
+    <section class="seccion" id="masajes-faciales">
+         <div class="container">
+            <div class="img-container">
+                <img src="images/Img_6_Facial.jpg" class="imagen" id="imagen3">
+            </div>
+            <div class="caja-texto">
+                <p class="parrafo">Tenemos las siguientes técnicas: 
+                    <ul class="lista2">
+                        <li class="li">Refrescante facial </li>
+                        <li class="li">Rejuvenecimiento facial</li>
+                        <li class="li">Limpieza facial profunda</li>
+                        <li class="li">Limpieza facial sencilla</li>
+                        <li class="li"> Parafina facial</li>
+                        <li class="li">Yeso facial</li>
+                        <li class="li">Porcelanización egipcia</li>
+                        <li class="li">Mejoramiento del aspecto de la piel</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </section>
+    <h2 class="SeccionMasaje" id="modMoldeadores1" onclick="ocultar4()"><img src="images/trebol.png" class="Trebol">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10595;&nbsp;&nbsp;&nbsp;&nbsp; Terapias de Moldeamiento Corporal &nbsp;&nbsp;&nbsp;&#10595;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/trebol.png" class="Trebol"></h2>
+    <h2 class="SeccionMasaje" id="modMoldeadores"  onclick="mostrar4()"><img src="images/trebol.png" class="Trebol">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10597;&nbsp;&nbsp;&nbsp;&nbsp; Terapias de Moldeamiento Corporal &nbsp;&nbsp;&nbsp;&#10597;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/trebol.png" class="Trebol"></h2>
+    <section class="seccion" id="masajes-moldeadores">
+       
+        <div class="container">
+            <div class="img-container">
+                <img src="images/Img_9_Aumento.jpg" class="imagen">
+            </div>
+            <div class="caja-texto">
+                <p class="parrafo"> Contamos con algunas terapias de:
+                    <ul class="lista2">
+                        <li class="li">Anticelulítis</li>
+                        <li class="li">Activación linfática</li>                    
+                        <li class="li">Mejoramiento de la circulación</li>
+                        <li class="li">Moldeamiento y reducción de medidas</li>
+                        <li class="li">Post operatorios</li>
+                    </ul> 
+                </p>
+            </div>
+        </div>
+    </section>
+        <div class="WhatS">
+            <a href="https://api.whatsapp.com/send?phone=573143595617" target="_blank">
+                <img src="images/Img_4_whatsapp.png"  alt="Abrir chat de WhatsApp" class="parpadeo">
+            </a>
+        </div>
+
+    <script src="codigo.js"></script>
+</body>
+</html>
